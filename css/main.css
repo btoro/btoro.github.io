@@ -163,15 +163,15 @@ main {
     overflow: hidden;
     min-height: 100vh; }
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 10vh; }
   main#work {
     overflow-y: scroll; }
 
 .abstract {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background: rgba(78, 78, 78, 0.7);
-  margin-bottom: 20vh;
+  margin-bottom: 12vh;
   width: 100%;
   padding: 1rem; }
 
@@ -189,6 +189,11 @@ main {
   border-left: #02abfa 3px solid;
   padding-left: 1rem;
   margin-bottom: 2vh; }
+
+.spacer {
+  display: block;
+  margin-top: 20px;
+  content: " "; }
 
 .skills {
   display: grid;
